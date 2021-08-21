@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mac-book-pro-KanizNUBTK</title>
+    <!-- bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- Link of CSS file -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -15,14 +18,90 @@
     <header></header>
     <!-- header end -->
     <!-- main start -->
-    <main></main>
+    <main>
+        <section class="container-fluid">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="float-end mac-image" src="images/mac.png" alt="mac pro">
+                    </div>
+                    <div class="col-6">
+                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                        <p class="pt-2">Apple M1 chip with 8-core with 4 performmance cores and 4 efficiency cores,
+                            7-core GPU and
+                            16-core Neural Engine 8GB unified memory 256GB SSD storage Tow Thunderbolt ? USB 4 ports
+                            Magic Mouse Magic Keyboard - US English</p>
+                        <div>
+                            <h6 class="pt-3">Memory</h6>
+                            <button id="memory-type-8GB"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">8GB unified
+                                memory</button>
+                            <button id="memory-type-16Gb"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">16GB unified
+                                memory</button>
+                            <h6 class="pt-3">Storage</h6>
+                            <button id="storage-SSD-256"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">256GB SSD
+                                storage</button>
+                            <button id="storage-SSD-512"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">512GB SSD
+                                storage</button>
+                            <button id="storage-SSD-1T"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">1TB SSD
+                                storage</button>
+                            <h6 class="pt-3">Choose your delivery option</h6>
+                            <button id="deliveryFree"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">friday, Aug 25
+                                FREE
+                                Prime
+                                Delivery</button>
+                            <button id="deliveryCost"
+                                class="pt-3 btn btn-default border border-2 border-dark btn-design">friday, Aug 21
+                                Delivery charge
+                                $20</button>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-6">
+                                <div class="d-flex justify-content-between border-bottom margin-left">
+                                    <h5>Best Price</h5>
+                                    <h5 class="text-end">$<span id="bestPrice">1299</span></h5>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom margin-left">
+                                    <h5>Extra Memory Cost</h5>
+                                    <h5 class="text-end">$<span id="memory-total">0</span></h5>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom margin-left">
+                                    <h5>Extra Storage Cost</h5>
+                                    <h5 class="text-end">$<span id="storage-total">0</span></h5>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom margin-left">
+                                    <h5>Delivery Charge</h5>
+                                    <h5 class="text-end">$<span id="delivery-total">0</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-2">
+                            <h5>Add Promo Code</h5>
+                            <input type="text" class="promo-code-input">
+                            <div class="btn bg-danger text-white">Apply</div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h2 class="text-center">Tottal: $<span>1299</span></h2>
+            </div>
+        </section>
+    </main>
     <!-- main end -->
     <!-- footer start -->
     <footer></footer>
     <!-- footer end -->
     <!-- script file link -->
     <script src="js/javascript.js"></script>
-
+    <!-- bootstrap script CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

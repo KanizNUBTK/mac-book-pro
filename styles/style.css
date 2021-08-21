@@ -1,0 +1,12 @@
+/* images design */
+.mac-image{
+    width: 80%;
+    height: 400px;
+}
+.margin-left{
+    margin-left: -50px !important;
+}
+.promo-code-input{
+    width: 250px;
+    height: 40px;
+}
